@@ -1,0 +1,13 @@
+D:\WIN\ATuan\askmage\Services\obj\Debug\netstandard2.0\Services.csprojAssemblyReference.cache
+D:\WIN\ATuan\askmage\Services\obj\Debug\netstandard2.0\Services.AssemblyInfoInputs.cache
+D:\WIN\ATuan\askmage\Services\obj\Debug\netstandard2.0\Services.AssemblyInfo.cs
+D:\WIN\ATuan\askmage\Services\bin\Debug\netstandard2.0\Services.deps.json
+D:\WIN\ATuan\askmage\Services\bin\Debug\netstandard2.0\Services.dll
+D:\WIN\ATuan\askmage\Services\bin\Debug\netstandard2.0\Services.pdb
+D:\WIN\ATuan\askmage\Services\bin\Debug\netstandard2.0\Core.dll
+D:\WIN\ATuan\askmage\Services\bin\Debug\netstandard2.0\Data.dll
+D:\WIN\ATuan\askmage\Services\bin\Debug\netstandard2.0\Core.pdb
+D:\WIN\ATuan\askmage\Services\bin\Debug\netstandard2.0\Data.pdb
+D:\WIN\ATuan\askmage\Services\obj\Debug\netstandard2.0\Services.csproj.CopyComplete
+D:\WIN\ATuan\askmage\Services\obj\Debug\netstandard2.0\Services.dll
+D:\WIN\ATuan\askmage\Services\obj\Debug\netstandard2.0\Services.pdb

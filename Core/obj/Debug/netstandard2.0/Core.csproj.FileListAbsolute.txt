@@ -1,0 +1,8 @@
+D:\WIN\ATuan\askmage\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+D:\WIN\ATuan\askmage\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+D:\WIN\ATuan\askmage\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+D:\WIN\ATuan\askmage\Core\bin\Debug\netstandard2.0\Core.deps.json
+D:\WIN\ATuan\askmage\Core\bin\Debug\netstandard2.0\Core.dll
+D:\WIN\ATuan\askmage\Core\bin\Debug\netstandard2.0\Core.pdb
+D:\WIN\ATuan\askmage\Core\obj\Debug\netstandard2.0\Core.dll
+D:\WIN\ATuan\askmage\Core\obj\Debug\netstandard2.0\Core.pdb
