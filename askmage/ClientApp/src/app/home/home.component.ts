@@ -9,7 +9,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 export class HomeComponent {
   name = 'Set iframe source';
-  url: string = "chart.html";
+  url: string = "chart1.html";
   urlSafe: SafeResourceUrl;
 
   constructor(public sanitizer: DomSanitizer) { }
