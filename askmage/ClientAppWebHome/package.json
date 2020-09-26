@@ -1,11 +1,11 @@
 {
-  "name": "askmage",
+  "name": "webapplication2",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:ssr": "ng run askmage:server:dev",
+    "build:ssr": "ng run WebApplication2:server:dev",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -23,7 +23,6 @@
     "@angular/router": "8.2.12",
     "@nguniversal/module-map-ngfactory-loader": "8.1.1",
     "aspnet-prerendering": "^3.0.1",
-    "bootstrap": "^4.3.1",
     "core-js": "^3.3.3",
     "jquery": "3.4.1",
     "oidc-client": "^1.9.1",
