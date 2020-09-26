@@ -1,15 +1,27 @@
+import { AboutComponent } from "./about/about.component";
+import { AchievementComponent } from "./achievement/achievement.component";
 import { ChartColumnComponent } from "./chart-column/chart-column.component";
-import { CounterComponent } from "./counter/counter.component";
-import { FetchDataComponent } from "./fetch-data/fetch-data.component";
-import { HomeComponent } from "./home/home.component";
+import { ContactComponent } from "./contact/contact.component";
 import { LoadingComponent } from "./loading/loading.component";
+import { MissionComponent } from "./mission/mission.component";
+import { ParadoxComponent } from "./paradox/paradox.component";
+import { ProductComponent } from "./product/product.component";
+import { ProfileDetailComponent } from "./profile-detail/profile-detail.component";
 import { ProfileComponent } from "./profile/profile.component";
+import { RoadMapComponent } from "./road-map/road-map.component";
+import { TeamComponent } from "./team/team.component";
 
 export let COMPONENT = [ 
     ProfileComponent,
-    HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
     ChartColumnComponent,
-    LoadingComponent
+    LoadingComponent,
+    ParadoxComponent,
+    ProfileDetailComponent,
+    AboutComponent,
+    ProductComponent,
+    TeamComponent,
+    AchievementComponent,
+    MissionComponent,
+    ContactComponent,
+    RoadMapComponent
 ];
