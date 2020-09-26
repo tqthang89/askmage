@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "progress": false,
-            "extractCss": true,
+            "extractCss":false,
             "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -22,10 +22,18 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": ["src/assets"],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/assets/css/reset.css",
+              "src/assets/plugin/bootstrap/css/bootstrap.min.css",
+              "src/assets/plugin/jquery-nice-select/css/nice-select.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.5.1.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/plugin//bootstrap/js/bootstrap.min.js",
+              "src/assets/js/script.js"
+            ]
           },
           "configurations": {
             "production": {
