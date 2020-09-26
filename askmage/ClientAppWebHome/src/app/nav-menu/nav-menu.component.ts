@@ -21,4 +21,14 @@ export class NavMenuComponent {
       $('.sidebar').addClass("open");
     });
   }
+
+  collapseSubMenu() {
+    $('.panel-menu .accordion').on('show.bs.collapse', function (e) {
+      $(e.target).prev('.card-header').addClass('active');
+    });
+
+    $('.panel-menu .accordion').on('hide.bs.collapse', function(e) {
+      $(this).find('.card-header').not($(e.target)).removeClass('active');
+    });
+  }
 }

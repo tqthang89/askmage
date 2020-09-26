@@ -1,162 +1,168 @@
-<div class="header">/
-  <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="home.html" title="MoM"><img class="logo" src="https://askmage.net/Angular/images/logo.svg" /></a>
-      
-      <ul class="navbar-nav justify-content-end">
-          <li class="nav-item active">
-              <a class="nav-link" href="home.html" title="Trang chủ">Trang chủ <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Giới thiệu
-              </a>
-              <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="about.html" title="MoM">MoM</a>
-                  <a class="dropdown-item" href="mission.html" title="Sứ mệnh">Sứ mệnh</a>
-              </div>
-          </li>
-          <li class="nav-item ">
-              <a class="nav-link" href="product.html" title="Sản phẩm">Sản phẩm</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="team.html" title="Đội ngũ">Đội ngũ</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="achievement.html" title="Thành tựu">Thành tựu</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="contact.html" title="Liên hệ">Liên hệ</a>
-          </li>
-          <li class="nav-item navbar-item-toggler">
-              <img src="https://askmage.net/Angular/images/icon-menu.svg" alt="" (click)="toggle()"/>
-          </li>
-      </ul>
-  
-  </nav>
+<div class="header">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="home.html" title="MoM"><img class="logo"
+                src="https://askmage.net/Angular/images/logo.svg" /></a>
+
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html" title="Trang chủ">Trang chủ <span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Giới thiệu
+                </a>
+                <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="about.html" title="MoM">MoM</a>
+                    <a class="dropdown-item" href="mission.html" title="Sứ mệnh">Sứ mệnh</a>
+                </div>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="product.html" title="Sản phẩm">Sản phẩm</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="team.html" title="Đội ngũ">Đội ngũ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="achievement.html" title="Thành tựu">Thành tựu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html" title="Liên hệ">Liên hệ</a>
+            </li>
+            <li class="nav-item navbar-item-toggler">
+                <img src="https://askmage.net/Angular/images/icon-menu.svg" alt="" (click)="toggle()" />
+            </li>
+        </ul>
+
+    </nav>
 </div>
 <!-- End header -->
 
 <!-- Begin side bar -->
 <div class="sidebar">
-  <div class="panel-menu">
-      <div class="d-flex align-items-center justify-content-end head">
-          <img src="https://askmage.net/Angular/images/icons/icon-close.svg" class="icon-close close-sidebar" alt="icon close">
-      </div>
-      <div class="accordion" id="accordionSidebar">
-          <div class="card">
-              <div class="card-header text-right" id="headingOne">
-                  <a class="text-righ" href="home.html" title="Trang chủ">
-                      Trang chủ
-                  </a>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right dropdown" id="headingAbout" data-toggle="collapse" data-target="#collapseAbout" >
-                  <a class="text-right" href="#" title="Giới thiệu">
-                      Giới thiệu
-                  </a>
-              </div>
-              <div id="collapseAbout" class="collapse" aria-labelledby="headingAbout" data-parent="#accordionSidebar">
-                  <div class="card-body">
-                      <ul class="list-group list-group-flush">
-                          <li class="list-group-item"><a href="about.html" title="MoM">MoM</a></li>
-                          <li class="list-group-item"><a href="mission.html" title="Sứ mệnh">Sứ mệnh</a></li>
+    <div class="panel-menu">
+        <div class="d-flex align-items-center justify-content-end head">
+            <img src="https://askmage.net/Angular/images/icons/icon-close.svg" class="icon-close close-sidebar"
+                alt="icon close">
+        </div>
+        <div class="accordion" id="accordionSidebar">
+            <div class="card">
+                <div class="card-header text-right" id="headingOne">
+                    <a class="text-righ" href="home.html" title="Trang chủ">
+                        Trang chủ
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right dropdown" id="headingAbout" data-toggle="collapse"
+                    data-target="#collapseAbout">
+                    <a class="text-right" href="#" title="Giới thiệu">
+                        Giới thiệu
+                    </a>
+                </div>
+                <div id="collapseAbout" class="collapse" aria-labelledby="headingAbout" data-parent="#accordionSidebar">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="about.html" title="MoM">MoM</a></li>
+                            <li class="list-group-item"><a href="mission.html" title="Sứ mệnh">Sứ mệnh</a></li>
                         </ul>
-                  </div>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right" id="san-pham">
-                  <a class="text-righ" href="product.html" title="Sản phẩm">
-                      Sản phẩm
-                  </a>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right" id="doi-ngu">
-                  <a class="text-righ" href="team.html" title="Đội ngũ">
-                      Đội ngũ
-                  </a>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right" id="thanh-tuu">
-                  <a class="text-righ" title="Thành tựu" href="achievement.html">
-                      Thành tựu
-                  </a>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right" id="lien-he">
-                  <a class="text-righ" href="contact.html" title="Liên hệ">
-                      Liên hệ
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="san-pham">
+                    <a class="text-righ" href="product.html" title="Sản phẩm">
+                        Sản phẩm
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="doi-ngu">
+                    <a class="text-righ" href="team.html" title="Đội ngũ">
+                        Đội ngũ
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="thanh-tuu">
+                    <a class="text-righ" title="Thành tựu" href="achievement.html">
+                        Thành tựu
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="lien-he">
+                    <a class="text-righ" href="contact.html" title="Liên hệ">
+                        Liên hệ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- End side bar -->
 
 <!-- Begin side bar -->
 <div class="sidebar">
-  <div class="panel-menu">
-      <div class="d-flex align-items-center justify-content-end head">
-          <img src="https://askmage.net/Angular/images/icons/icon-close.svg" class="icon-close close-sidebar" alt="icon close" (click)="collapse()">
-      </div>
-      <div class="accordion" id="accordionSidebar">
-          <div class="card">
-              <div class="card-header text-right" id="headingOne">
-                  <a class="text-righ" href="home.html" title="Trang chủ">
-                      Trang chủ
-                  </a>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right dropdown" id="headingAbout" data-toggle="collapse" data-target="#collapseAbout" >
-                  <a class="text-right" href="#" title="Giới thiệu">
-                      Giới thiệu
-                  </a>
-              </div>
-              <div id="collapseAbout" class="collapse" aria-labelledby="headingAbout" data-parent="#accordionSidebar">
-                  <div class="card-body">
-                      <ul class="list-group list-group-flush">
-                          <li class="list-group-item"><a href="about.html" title="MoM">MoM</a></li>
-                          <li class="list-group-item"><a href="mission.html" title="Sứ mệnh">Sứ mệnh</a></li>
+    <div class="panel-menu">
+        <div class="d-flex align-items-center justify-content-end head">
+            <img src="https://askmage.net/Angular/images/icons/icon-close.svg" class="icon-close close-sidebar"
+                alt="icon close" (click)="collapse()">
+        </div>
+        <div class="accordion" id="accordionSidebar">
+            <div class="card">
+                <div class="card-header text-right" id="headingOne">
+                    <a class="text-righ" href="home.html" title="Trang chủ">
+                        Trang chủ
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div style="cursor: pointer;" class="card-header text-right dropdown" id="headingAbout"
+                    data-toggle="collapse" data-target="#collapseAbout" (click)="collapseSubMenu()">
+                    <a class="text-right" href="#" title="Giới thiệu">
+                        Giới thiệu
+                    </a>
+                </div>
+                <div id="collapseAbout" class="collapse" aria-labelledby="headingAbout" data-parent="#accordionSidebar">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="about.html" title="MoM">MoM</a></li>
+                            <li class="list-group-item"><a href="mission.html" title="Sứ mệnh">Sứ mệnh</a></li>
                         </ul>
-                  </div>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right" id="san-pham">
-                  <a class="text-righ" href="product.html" title="Sản phẩm">
-                      Sản phẩm
-                  </a>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right" id="doi-ngu">
-                  <a class="text-righ" href="team.html" title="Đội ngũ">
-                      Đội ngũ
-                  </a>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right" id="thanh-tuu">
-                  <a class="text-righ" title="Thành tựu" href="achievement.html">
-                      Thành tựu
-                  </a>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header text-right" id="lien-he">
-                  <a class="text-righ" href="contact.html" title="Liên hệ">
-                      Liên hệ
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="san-pham">
+                    <a class="text-righ" href="product.html" title="Sản phẩm">
+                        Sản phẩm
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="doi-ngu">
+                    <a class="text-righ" href="team.html" title="Đội ngũ">
+                        Đội ngũ
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="thanh-tuu">
+                    <a class="text-righ" title="Thành tựu" href="achievement.html">
+                        Thành tựu
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="lien-he">
+                    <a class="text-righ" href="contact.html" title="Liên hệ">
+                        Liên hệ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- End side bar -->

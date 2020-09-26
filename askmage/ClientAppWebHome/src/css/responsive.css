@@ -1,0 +1,266 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    html,body{overflow: auto;}
+    .btn-global{height: 30px; font-size: 10px; padding:0 30px; line-height: 30px;}
+    .header{height: 70px;}
+    .header .navbar{padding:0.5rem 0px}
+    .header .logo{width: 55px; margin-top: 0px;}
+    .header .navbar-nav{width: 30%; margin-top:0px}
+    .header .navbar-nav .nav-item{display: none;}
+    .header .navbar-nav .nav-item.navbar-item-toggler{display: inline-block; margin-left:10px}
+
+    .sidebar{background: #1E1E26;}
+    .sidebar .panel-menu .accordion{width: 90%;}
+    .sidebar .panel-menu .accordion .card{border: none;}
+    .sidebar .panel-menu .accordion .card-header{background-color: transparent; border: none;}
+    .sidebar .panel-menu .accordion .list-group-item{border: 0px;}
+
+    .container-page{height: 100%;}
+    .body-page{border-radius: 0px; flex-wrap: wrap;}
+    .body-page .col-chart{width: 100%; border-radius: 0px; padding:15px; position: relative;}
+    .col-chart .heading{height: 47px; width: 270px; margin-left:0px; padding:8px 5px}
+    .col-chart .heading .animal-age{background-repeat: no-repeat; height: 50px; background-size: contain; width: 70px; top:-2px}
+    .col-chart .heading .animal-age img{width: 32px; height: 32px; margin-left:-10px; margin-top:5px}
+    .col-chart .heading .title{margin-left: 65px; width: 70px; font-size: 13px;height: 30px; line-height: 28px;}
+    .col-chart .heading .info p{font-size: 10px; line-height: 16px; margin-bottom: 0px;}
+
+    .body-page .col-info{width: 100%; padding:1vh 15px 3vh 15px}
+    .col-info .heading-title{font-size: 4vh;}
+    .col-info .profile-form .text-label{font-size: 12px; padding-top:0px; padding-bottom:10px}
+    .col-info .profile-form .scrollbar{height: 100%; padding:0px; margin-bottom:0px; overflow: unset;}
+    .col-info .profile-form .group-btn-action{justify-content: center!important;}
+    .col-chart .box-chart{height: 300px; text-align: left!important;}
+    .col-chart .box-chart img{max-width: 270px;}
+
+    .page-pagination{padding:0px 15px}
+    .page-pagination .item-pagination{height: 2px;}
+    .group-btn-fate{width: 35px; flex-wrap: wrap; position: absolute; right:15px; top:0}
+    .group-btn-fate .btn{margin-top: 10px; width: 100%; height: 20px;}
+    .group-btn-fate .btn img{height: 90%; margin-top:-10px}
+    .group-btn-fate>div{width: 100%;}
+    .group-label-percent .item{width: 100%; font-size: 9px; height: 14px; line-height: 14px;}
+    .group-label-percent .icon.plus{top:35px}
+    .group-label-percent .icon.minus{top:56px}
+
+
+    .profile-page .list-info{font-size: 12px;}
+    .col-info .heading-title{line-height: 50px;}
+    .profile-page .age-animal span{font-size: 14px;}
+    .profile-page .age-animal img{width: 30px;}
+    .profile-page .group-btn-destiny .btn{font-size: 12px; height: 25px; line-height: 22px;}
+    .profile-page .group-btn-destiny .btn img{width: 20px; left: 2px; top:2px}
+    .profile-page .btn-accept{margin-left: 30px;}
+
+    .about-page .head{font-size: 24px;}
+    .about-page .body-page{padding:3vh 15px}
+    .about-page .scrollbar{height: 100%;}
+    .about-page .scrollbar .img img{width: 100%; margin:30px 0px}
+    .about-page .text-infor{font-size: 12px; font-weight: 500;}
+
+    .mission-page .body-page{padding:3vh 15px}
+    .mission-page .quote{font-size: 12px; width: 100%;}
+    .mission-page .card .card-title{font-size: 14px;}
+    .mission-page .card .card-text{width: 80%; margin:0 auto}
+    .mission-page .card{margin-bottom: 20px;}
+
+    .team-page .body-page{padding:3vh 15px}
+    .team-page .head{font-size: 24px;}
+    .team-page .text-medium{font-size: 14px;}
+    .team-page .card .card-title{font-size: 14px; line-height: 25px;}
+    .team-page .card{margin-bottom: 30px;}
+    .team-page .sapo{font-size: 12px; line-height: 20px;}
+    .team-page .card .sapo{width: 80%; margin: 0 auto;}
+
+    .product-page .card .card-title{font-size: 14px;}
+    .product-page .card .card-body{padding-bottom: 0px;}
+    .product-page .card .card-price{margin-bottom: 30px;}
+    .product-page .filter .btn{font-size: 10px; margin-left: 5px; white-space: nowrap; padding:5px 8px}
+    .product-page .filter label{font-size: 12px; white-space: nowrap;}
+
+    .product-detail-page .content .scrollbar{height: 100%; padding:0px 10px}
+    .product-detail-page .rs-slider > li img{ width: 100%; height: 100%;}
+    #modalBuy .modal-title{font-size: 14px;}
+    #modalBuy .modal-body{padding:15px}
+    #modalBuy .modal-footer{padding:0px}
+    #modalBuy .modal-footer .btn-accept{font-size: 14px; height: 30px; margin-top:-20px; margin-bottom: 20px;}
+
+    .roadmap-page .head{font-size: 24px;}
+    .roadmap-page .body-page{padding:3vh 15px}
+    .roadmap-page .sapo{font-size: 14px;}
+    .roadmap-page .sapo img{width: 30px; margin-right: 10px;}
+    .roadmap-page .content{margin:0px 15px;}
+    .roadmap-page .content .scrollbar{height: 100%; padding:0px 15px}
+
+    .profile-detail-page .group-btn-action{justify-content: center!important;}
+    .profile-detail-page .col-chart .title{font-size: 24px;}
+    .profile-detail-page .col-chart .title img{width: 30px;}
+    .profile-detail-page .col-chart .scrollbar{height: 100%; width: 80%; overflow: inherit;}
+    .profile-detail-page .col-chart .filter .btn-link{font-size: 10px;}
+    .profile-detail-page .sw>.nav{flex-direction: row!important;}
+    .profile-detail-page .col-chart .wrap-chart img{width: 100%; height: auto;}
+    .profile-detail-page .col-chart .box-result{padding:7px }
+    .profile-detail-page .col-chart .box-result form input.address{width: 100px;}
+    .profile-detail-page .col-chart .box-result form .btn-link{white-space: nowrap; margin-top:10px}
+    .profile-detail-page .col-chart .box-result .result-percent{font-size: 10px;}
+    .profile-detail-page .group-btn-tab{width: 50px; position: absolute; top:30px; right:15px}
+    .profile-detail-page .group-btn-tab .btn{font-size: 10px; padding:0px; margin-bottom: 10px;}
+
+    .five-onion-page .col-chart .box-chart img{width: 100%;}
+    .five-onion-page .group-btn-tab .btn{padding:0px 5px}
+    .five-onion-page .content .scrollbar{height: calc(100vh - 450px);}
+
+}
+
+/* Small devices (landscape phones, less than 992px) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    html,body{overflow: auto;}
+    .btn-global{height: 30px; font-size: 10px; padding:0 30px; line-height: 30px;}
+    .header{height: 70px; padding:0px 15px}
+    .header .navbar{padding:0.5rem 0px}
+    .header .logo{width: 55px; margin-top: 0px;}
+    .header .navbar-nav{width: 100px; margin-top:0px}
+    .header .navbar-nav .nav-item{display: none;}
+    .header .navbar-nav .nav-item.navbar-item-toggler{display: inline-block; margin-left:10px}
+
+    .sidebar{background: #1E1E26;}
+    .sidebar .panel-menu .accordion{width: 90%;}
+    .sidebar .panel-menu .accordion .card{border: none;}
+    .sidebar .panel-menu .accordion .card-header{background-color: transparent; border: none;}
+    .sidebar .panel-menu .accordion .list-group-item{border: 0px;}
+
+    .container-page{height: 100%; padding:15px}
+    .body-page{flex-wrap: wrap;}
+    .body-page .col-chart{width: 100%; border-radius: 0px; padding:30px; position: relative; border-top-left-radius: 30px; border-top-right-radius: 30px;}
+    .col-chart .heading{height: 47px; width: 270px; margin-left:0px; padding:8px 5px}
+    .col-chart .heading .animal-age{background-repeat: no-repeat; height: 50px; background-size: contain; width: 70px; top:-2px}
+    .col-chart .heading .animal-age img{width: 32px; height: 32px; margin-left:-10px; margin-top:5px}
+    .col-chart .heading .title{margin-left: 65px; width: 70px; font-size: 13px;height: 30px; line-height: 28px;}
+    .col-chart .heading .info p{font-size: 10px; line-height: 16px; margin-bottom: 0px;}
+
+    .body-page .col-info{width: 100%; padding:20px 30px}
+    .col-info .heading-title{font-size: 4vh;}
+    .col-info .profile-form .text-label{font-size: 12px; padding-top:0px; padding-bottom:10px}
+    .col-info .profile-form .scrollbar{height: 100%; padding:0px; margin-bottom:0px; overflow: unset;}
+    .col-info .profile-form .group-btn-action{justify-content: center!important;}
+    .col-chart .box-chart{height: 300px; }
+
+
+    .page-pagination{padding:0px 15px}
+    .page-pagination .item-pagination{height: 2px;}
+    .page-pagination .item-pagination.prev, .page-pagination .item-pagination.next{margin-top: -26px;}
+    .group-btn-fate{width: 35px; flex-wrap: wrap; position: absolute; right:30px; top:30px}
+    .group-btn-fate .btn{margin-top: 10px; width: 100%; height: 20px;}
+    .group-btn-fate .btn img{height: 90%; margin-top:-10px}
+    .group-btn-fate>div{width: 100%;}
+    .group-label-percent .item{width: 100%; font-size: 9px; height: 14px; line-height: 14px;}
+    .group-label-percent .icon.plus{top:35px}
+    .group-label-percent .icon.minus{top:56px}
+
+    .profile-page .list-info{font-size: 12px;}
+    .col-info .heading-title{line-height: 50px;}
+    .profile-page .age-animal span{font-size: 14px;}
+    .profile-page .age-animal img{width: 30px;}
+    .profile-page .group-btn-destiny .btn{font-size: 12px; height: 25px; line-height: 22px;}
+    .profile-page .group-btn-destiny .btn img{width: 20px; left: 2px; top:2px}
+    .profile-page .btn-accept{margin-left: 30px;}
+
+    .about-page .head{font-size: 24px;}
+    .about-page .body-page{padding:3vh 15px}
+    .about-page .scrollbar{height: 100%;}
+    .about-page .scrollbar .img img{width: 100%; margin:30px 0px}
+    .about-page .text-infor{font-size: 12px; font-weight: 500;}
+
+    .mission-page .body-page{padding:3vh 15px}
+    .mission-page .quote{font-size: 12px; width: 100%;}
+    .mission-page .card .card-title{font-size: 14px;}
+    .mission-page .card .card-text{width: 80%; margin:0 auto}
+    .mission-page .card{margin-bottom: 20px;}
+
+    .team-page .body-page{padding:3vh 15px}
+    .team-page .head{font-size: 24px;}
+    .team-page .text-medium{font-size: 14px;}
+    .team-page .card .card-title{font-size: 14px; line-height: 25px;}
+    .team-page .card{margin-bottom: 30px;}
+    .team-page .card .box-cover{width: 17vh; height: 17vh;}
+    .team-page .sapo{font-size: 12px; line-height: 20px;}
+    .team-page .card .sapo{width: 80%; margin: 0 auto;}
+
+    .product-page .card .card-title{font-size: 14px;}
+    .product-page .card .card-body{padding-bottom: 0px;}
+    .product-page .card .card-price{margin-bottom: 30px;}
+    .product-page .filter .btn{font-size: 14px; margin-left: 5px; white-space: nowrap; padding:5px 8px}
+    .product-page .filter label{font-size: 12px; white-space: nowrap;}
+
+    .product-detail-page .content .scrollbar{height: 100%; padding:0px 10px}
+    .product-detail-page .rs-slider > li img{ width: 100%;}
+    .product-detail-page .rs-wrap{width: 100%!important;}
+    #modalBuy .modal-title{font-size: 14px;}
+    #modalBuy .modal-body{padding:15px}
+    #modalBuy .modal-footer{padding:0px}
+    #modalBuy .modal-footer .btn-accept{font-size: 14px; height: 30px; margin-top:-20px; margin-bottom: 20px;}
+
+    .roadmap-page .head{font-size: 24px;}
+    .roadmap-page .body-page{padding:3vh 15px}
+    .roadmap-page .sapo{font-size: 14px;}
+    .roadmap-page .sapo img{width: 30px; margin-right: 10px;}
+    .roadmap-page .content{margin:0px 15px;}
+    .roadmap-page .content .scrollbar{height: 100%; padding:0px 15px}
+
+    .profile-detail-page .group-btn-action{justify-content: center!important;}
+    .profile-detail-page .col-chart .title{font-size: 24px;}
+    .profile-detail-page .col-chart .title img{width: 30px;}
+    .profile-detail-page .col-chart .scrollbar{height: 100%; width: 90%; overflow: inherit;}
+    .profile-detail-page .col-chart .filter .btn-link{font-size: 10px;}
+    .profile-detail-page .sw>.nav{flex-direction: row!important;}
+    .profile-detail-page .col-chart .wrap-chart img{width: 100%; height: auto; max-height: 100%;}
+    .profile-detail-page .col-chart .box-result{padding:7px }
+    .profile-detail-page .col-chart .box-result .result-percent{font-size: 10px;}
+    .profile-detail-page .group-btn-tab{width: 50px; position: absolute; top:30px; right:15px}
+    .profile-detail-page .group-btn-tab .btn{font-size: 10px; padding:0px; margin-bottom: 10px;}
+    .profile-detail-page .content .scrollbar{height: 265px;}
+
+    .five-onion-page .col-chart .box-chart img{width: 100%;}
+    .five-onion-page .group-btn-tab .btn{padding:0px 5px}
+    .five-onion-page .content .scrollbar{height: calc(100vh - 450px);}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header{padding:0px 15px; height: 70px;}
+    .header .navbar{padding:0px}
+    .header .navbar-nav .navbar-item-toggler{padding-right:10px}
+    .container-page{padding:15px; height: calc(100vh - 170px);}
+    .btn-global{padding:0px 30px}
+    .col-info .heading-title{font-size: 4vh;}
+    .product-detail-page .content .scrollbar{height: calc(100vh - 560px);}
+    .profile-page .group-btn-destiny .btn{font-size: 12px; height: 25px; line-height: 22px;}
+    .profile-page .group-btn-destiny .btn img{width: 20px; left: 2px; top:2px}
+}
+
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px)
+    and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+    .body-page .col-info{width: 44.5%; padding-bottom: 30px;}
+    .body-page .col-chart{width: 55.5%;}
+    .col-chart .box-chart img{height: 100%;}
+    .col-chart .box-chart{height: auto;}
+    .col-info .profile-form .scrollbar{height: 100%;}
+    .col-info .profile-form .form-control{height: 50px;}
+    .col-info .heading-title{font-size: 36px;}
+    .about-page .img img{margin: 50px 0px;}
+    .about-page .scrollbar{height: 100%;}
+    
+    .product-page .row .col-lg-3{flex: 0 0 33%; max-width: 33%;}
+    .product-detail-page .rs-slider > li img{height: 100%;}
+    .product-detail-page .content .scrollbar{height: 100%;}
+    .team-page .row .col-lg-3{flex: 0 0 33%; max-width: 33%;}
+    .mission-page .row .col-lg-3{flex: 0 0 33%; max-width: 33%;}
+    .team-page .card .box-cover{height: 18vh; width: 18vh;}
+    .five-onion-page .content .scrollbar{height: 100%;}
+    .five-onion-page .box-chart img{margin:12vh 0px}
+    .profile-detail-page .content .scrollbar{height: 100%;}
+    .profile-detail-page .col-chart .scrollbar{height: 100%; max-height: 400px;}
+    .profile-detail-page .col-chart .box-result form input[type=text]{height: 30px;}
+    .roadmap-page .content .scrollbar{height: 100%;}
+    .roadmap-page .chart{height: 100%;}
+}
