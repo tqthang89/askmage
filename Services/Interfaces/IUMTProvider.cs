@@ -33,5 +33,16 @@ namespace Services.Interfaces
         DataSet QCReason(long? AuditId, string MarketId, string KPI);
         int QCConfirmV2(string AuditId, string EmployeeCode, int? Type);
         int OpenQCV2(string EmployeeCode, string AuditId);
+
+
+
+        DataSet EmmployeeAccess_UpdateTime(int EmployeeId, int EAId);
+        DataSet EmployeeDevices_Create(string Ip, string Province, string Country, string UserAgent);
+
+        DataSet Form1_CheckDate(int Date, int NgayAm);
+        DataSet Form1_Province(int EmployeeId);
+        DataSet Form1_District(int EmployeeId, int ProvinceId);
+        DataSet Form1_Town(int EmployeeId, int DistrictId);
+
     }
 }
