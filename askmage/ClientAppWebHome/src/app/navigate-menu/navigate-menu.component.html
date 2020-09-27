@@ -1,0 +1,168 @@
+<div class="header">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" routerLink="/home" title="MoM"><img class="logo"
+                src="assets/images/logo.svg" /></a>
+
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/home" title="Trang chủ">Trang chủ <span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Giới thiệu
+                </a>
+                <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" routerLink="/about" title="MoM">MoM</a>
+                    <a class="dropdown-item" routerLink="/mission" title="Sứ mệnh">Sứ mệnh</a>
+                </div>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="/product" title="Sản phẩm">Sản phẩm</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/team" title="Đội ngũ">Đội ngũ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/achievement" title="Thành tựu">Thành tựu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/contact" title="Liên hệ">Liên hệ</a>
+            </li>
+            <li class="nav-item navbar-item-toggler">
+                <img src="assets/images/icon-menu.svg" alt="" (click)="toggle()" />
+            </li>
+        </ul>
+
+    </nav>
+</div>
+<!-- End header -->
+
+<!-- Begin side bar -->
+<div class="sidebar">
+    <div class="panel-menu">
+        <div class="d-flex align-items-center justify-content-end head">
+            <img src="assets/images/icons/icon-close.svg" class="icon-close close-sidebar"
+                alt="icon close">
+        </div>
+        <div class="accordion" id="accordionSidebar">
+            <div class="card">
+                <div class="card-header text-right" id="headingOne">
+                    <a class="text-righ" routerLink="/home" title="Trang chủ">
+                        Trang chủ
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right dropdown" id="headingAbout" data-toggle="collapse"
+                    data-target="#collapseAbout">
+                    <a class="text-right" routerLink="javascript:void();" title="Giới thiệu">
+                        Giới thiệu
+                    </a>
+                </div>
+                <div id="collapseAbout" class="collapse" aria-labelledby="headingAbout" data-parent="#accordionSidebar">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a routerLink="/about" title="MoM">MoM</a></li>
+                            <li class="list-group-item"><a routerLink="/mission" title="Sứ mệnh">Sứ mệnh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="san-pham">
+                    <a class="text-righ" routerLink="/product" title="Sản phẩm">
+                        Sản phẩm
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="doi-ngu">
+                    <a class="text-righ" routerLink="/team" title="Đội ngũ">
+                        Đội ngũ
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="thanh-tuu">
+                    <a class="text-righ" title="Thành tựu" routerLink="/achievement">
+                        Thành tựu
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="lien-he">
+                    <a class="text-righ" routerLink="/contact" title="Liên hệ">
+                        Liên hệ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End side bar -->
+
+<!-- Begin side bar -->
+<div class="sidebar">
+    <div class="panel-menu">
+        <div class="d-flex align-items-center justify-content-end head">
+            <img src="assets/images/icons/icon-close.svg" class="icon-close close-sidebar"
+                alt="icon close" (click)="collapse()">
+        </div>
+        <div class="accordion" id="accordionSidebar">
+            <div class="card">
+                <div class="card-header text-right" id="headingOne">
+                    <a class="text-righ" routerLink="/home" title="Trang chủ">
+                        Trang chủ
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div style="cursor: pointer;" class="card-header text-right dropdown" id="headingAbout"
+                    data-toggle="collapse" data-target="#collapseAbout" (click)="collapseSubMenu()">
+                    <a class="text-right" routerLink="#" title="Giới thiệu">
+                        Giới thiệu
+                    </a>
+                </div>
+                <div id="collapseAbout" class="collapse" aria-labelledby="headingAbout" data-parent="#accordionSidebar">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a routerLink="/about" title="MoM">MoM</a></li>
+                            <li class="list-group-item"><a routerLink="/mission" title="Sứ mệnh">Sứ mệnh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="san-pham">
+                    <a class="text-righ" routerLink="/product" title="Sản phẩm">
+                        Sản phẩm
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="doi-ngu">
+                    <a class="text-righ" routerLink="/team" title="Đội ngũ">
+                        Đội ngũ
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="thanh-tuu">
+                    <a class="text-righ" title="Thành tựu" routerLink="/achievement">
+                        Thành tựu
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-right" id="lien-he">
+                    <a class="text-righ" routerLink="/contact" title="Liên hệ">
+                        Liên hệ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End side bar -->

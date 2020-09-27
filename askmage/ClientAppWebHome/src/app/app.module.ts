@@ -20,11 +20,13 @@ import { TeamComponent } from './_components/team/team.component';
 import { ProductComponent } from './_components/product/product.component';
 import { RoadMapComponent } from './_components/road-map/road-map.component';
 import { AppLayoutComponent } from './_layout';
+import { NavigateMenuComponent } from './navigate-menu/navigate-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
+    NavigateMenuComponent,
     HomeComponent,
     ProfileComponent,
     AppLayoutComponent,
