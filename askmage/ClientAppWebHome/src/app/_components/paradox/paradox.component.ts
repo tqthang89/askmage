@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts/highcharts.src';
 import highcharts3D from 'highcharts/highcharts-3d.src';
 highcharts3D(Highcharts);
-
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { ParadoxService } from 'src/app/_service/paradox_service';
 
 @Component({
@@ -13,7 +13,7 @@ import { ParadoxService } from 'src/app/_service/paradox_service';
 })
 export class ParadoxComponent implements OnInit {
   options: any;
-  constructor(private paradoxservice: ParadoxService) {}
+  constructor(private paradoxservice: ParadoxService,private http: HttpClient) {}
 
   /// Chart bên phải
   md : number; ma : number; hd : number; ha : number; tod : number; toa : number; kd : number; ka : number; tud : number; tua : number;
@@ -22,7 +22,6 @@ export class ParadoxComponent implements OnInit {
 
   // Thông tin bên trái
   tilenguhanh : string;tenuser:string;
-
 
   ngOnInit() {
     this.paradoxservice.getparadox(1).subscribe(result => {
