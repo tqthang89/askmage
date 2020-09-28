@@ -1,4 +1,6 @@
 <!-- <app-nav-menu></app-nav-menu> -->
+
+
 <div class="container container-page profile-page five-onion-page">
     <div class="d-flex body-page">
         <!-- Begin col chart -->
@@ -7,42 +9,43 @@
                 <div class="animal-age text-center"> 
                     <img src="assets/images/icon-mouse.svg" alt="icon mnouse">
                 </div>
-                <div class="title text-center">Canh Tý</div>
+                <div class="title text-center">{{namhoagiap}}</div>
                 <div class="info">
-                    <p>Năm: <strong>1924 - 1984 - 2044</strong></p>
-                    <p>Mệnh: <strong>Hải Trung Kim</strong></p>
+                    <p>Năm: <strong>{{namlist}}</strong></p>
+                    <p>Mệnh: <strong>{{menh}}</strong></p>
                 </div>
             </div>
             <div class="box-chart text-center d-flex justify-content-center align-items-end">
-                <img src="assets/images/chart-fare.svg" alt="chart" />
+                <!-- <img src="assets/images/chart-fare.svg" alt="chart" /> -->
+                <div id="container"></div>
             </div>
             <div class="d-flex justify-content-center group-btn-fate text-center group-label-percent">
                 <div class="position-relative">
                     <a class="btn btn-yellow" routerLink="javascript:void();"><img src="assets/images/icons/icon-sword.svg" alt="icon sword"/></a>
-                    <label class="item">54.2%</label>
-                    <label class="item">54.2%</label>
+                    <label class="item">{{kd}}%</label>
+                    <label class="item">{{ka}}%</label>
                     <img src="assets/images/icons/icon-plus.svg" class="icon plus" alt="icon plus"/>
                     <img src="assets/images/icons/icon-minus.svg" class="icon minus" alt="icon minus"/>
                 </div>
                 <div>
                     <a class="btn btn-blue" routerLink="javascript:void();"><img src="assets/images/icons/icon-water.svg" alt="icon water"/></a>
-                    <label class="item">4.0%</label>
-                    <label class="item">4.0%</label>
+                    <label class="item">{{tud}}%</label>
+                    <label class="item">{{tua}}%</label>
                 </div>
                 <div>
                     <a class="btn btn-green" routerLink="javascript:void();"><img src="assets/images/icons/icon-tree.svg" alt="icon tree"/></a>
-                    <label class="item">3.0%</label>
-                    <label class="item">3.0%</label>
+                    <label class="item">{{md}}%</label>
+                    <label class="item">{{ma}}%</label>
                 </div>
                 <div>
                     <a class="btn btn-orange" routerLink="javascript:void();"><img src="assets/images/icons/icon-fire.svg" alt="icon fire"/></a>
-                    <label class="item">2.0%</label>
-                    <label class="item">2.0%</label>
+                    <label class="item">{{hd}}%</label>
+                    <label class="item">{{ha}}%</label>
                 </div>
                 <div>
                     <a class="btn btn-brown" routerLink="javascript:void();"><img src="assets/images/icons/icon-earth.svg" alt="icon earth"/></a>
-                    <label class="item">1.0%</label>
-                    <label class="item">1.0%</label>
+                    <label class="item">{{tod}}%</label>
+                    <label class="item">{{toa}}%</label>
                 </div>
             </div>
             
@@ -51,21 +54,21 @@
 
         <!-- Begin col info -->
         <div class="bd-highlight col-info">
-            <h1 class="heading-title">Dương Thanh Thảo</h1>
+            <h1 class="heading-title">{{tenuser}}</h1>
             <div class="age-animal">
                 <img src="assets/images/icons/icon-cop.svg" alt="icon con cọp">
-                <span class="text-uppercase font-weight-bold">Bính Dần</span>
-                <span class="font-weight-bold"> - Lư Trung Hỏa</span>
+                <span class="text-uppercase font-weight-bold">{{namhoagiap}}</span>
+                <span class="font-weight-bold"> - {{menh}}</span>
             </div>
             <div class="text-red text-scale">Tỷ lệ ngũ hành lúc sinh</div>
             <div class="content">
-                <div class="scrollbar">
-                    Thủy : 22% : Thủy là đại diện cho cung chồng và cung quan quyền , mệnh có thủy và hỏa đều đạt trên mức trung bình (20%) là người lưỡng toàn cả tiền tài và công danh . Nhưng hỏa quá nhiều 36% cũng là điều bất lợi về sau này <br/>
+                <div class="scrollbar" [innerHtml]="tilenguhanh">
+                    <!-- Thủy : 22% : Thủy là đại diện cho cung chồng và cung quan quyền , mệnh có thủy và hỏa đều đạt trên mức trung bình (20%) là người lưỡng toàn cả tiền tài và công danh . Nhưng hỏa quá nhiều 36% cũng là điều bất lợi về sau này <br/>
                     Mộc :12% : trong mệnh này có hành mộc không cân đối hài hòa từ 18% đến 28% là rất tốt vì mộc là nguồn để giúp hỏa sáng , Hỏa nhiều mà mộc ít thì lửa chỉ vụt sáng rồi tắt do thiếu  Mộc <br/>
                     Mộc là lòng nhân từ , hiếu thảo , văn thư bút mực và là mẹ <br/>
                     Mộc là con của Thủy . Mộc ổn định cân đối thì cung sức khỏe tốt <br/>
                     Hỏa: 36 %: Hỏa đại diện cho ánh sáng giúp cho mộc phát triển , hỏa nhiều thì mộc bị khô héo , Hỏa 36% là mất cân đối là người dễ đạt tiếng tâm nhưng khó lâu dài <br/>
-                    Thổ:16% : Thổ là đại diện cho đồi núi , bờ đê hay nói cách khác là thổ đại diện hổ là đại diện cho đồi núi , bờ đê hay nói cách khác là thổ đại diệnhổ là đại diện cho<br/>
+                    Thổ:16% : Thổ là đại diện cho đồi núi , bờ đê hay nói cách khác là thổ đại diện hổ là đại diện cho đồi núi , bờ đê hay nói cách khác là thổ đại diệnhổ là đại diện cho<br/> -->
                 </div>
             </div>
             <div class="group-btn-tab text-center">
