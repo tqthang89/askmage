@@ -6,6 +6,6 @@ import { ConfigService } from './ConfigService';
 export class ParadoxService {
     constructor(private http: HttpClient) { }
     getparadox(employeeid) {
-        return this.http.post(`${ConfigService.apiUrl}/api/web/getparadox`, {employeeid });
+        return this.http.post(`${ConfigService.apiUrl}/api/web/Getparadox`, {employeeid });
     }
 }
