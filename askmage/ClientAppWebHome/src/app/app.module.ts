@@ -21,7 +21,8 @@ import { ProductComponent } from './_components/product/product.component';
 import { RoadMapComponent } from './_components/road-map/road-map.component';
 import { AppLayoutComponent } from './_layout';
 import { NavigateMenuComponent } from './navigate-menu/navigate-menu.component';
-
+import {SlideshowModule} from 'ng-simple-slideshow';
+import { SlideShowComponent } from './_components/slide-show/slide-show.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { NavigateMenuComponent } from './navigate-menu/navigate-menu.component';
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
+    SlideshowModule,
     RouterModule.forRoot([
       {
         path: '',
@@ -54,6 +56,7 @@ import { NavigateMenuComponent } from './navigate-menu/navigate-menu.component';
           { path: 'team', component: TeamComponent },
           { path: 'product', component: ProductComponent },
           { path: 'roadmap', component: RoadMapComponent },
+          { path: 'slideshow', component: SlideShowComponent }
         ]
 
       },

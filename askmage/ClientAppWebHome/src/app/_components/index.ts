@@ -9,6 +9,7 @@ import { ProductComponent } from "./product/product.component";
 import { ProfileDetailComponent } from "./profile-detail/profile-detail.component";
 import { ProfileComponent } from "./profile/profile.component";
 import { RoadMapComponent } from "./road-map/road-map.component";
+import { SlideShowComponent } from "./slide-show/slide-show.component";
 import { TeamComponent } from "./team/team.component";
 
 export let COMPONENT = [ 
@@ -23,5 +24,6 @@ export let COMPONENT = [
     AchievementComponent,
     MissionComponent,
     ContactComponent,
-    RoadMapComponent
+    RoadMapComponent,
+    SlideShowComponent
 ];
