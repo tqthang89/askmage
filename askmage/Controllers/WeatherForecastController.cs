@@ -55,23 +55,23 @@ namespace askmage.Controllers
         //    .ToArray();
         //}
 
-        [HttpGet("[action]")]
-        public DataTable GetChannels()
-        {
-            var rng = new Random();
-            string count = "";
-            try
-            {
-                DataTable user = _umtProvider.GetallBylevel(null, null, null, "manager", null, null, null, null, 1, 1);
-                count = user.Rows[0]["EmployeeCode"].ToString();
-                return user;
-            }
-            catch (Exception ex)
-            {
-                count = ex.Message;
-            }
-            return null;
+        //[HttpGet("[action]")]
+        //public DataTable GetChannels()
+        //{
+        //    var rng = new Random();
+        //    string count = "";
+        //    try
+        //    {
+        //        DataTable user = _umtProvider.GetallBylevel(null, null, null, "manager", null, null, null, null, 1, 1);
+        //        count = user.Rows[0]["EmployeeCode"].ToString();
+        //        return user;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        count = ex.Message;
+        //    }
+        //    return null;
             
-        }
+        //}
     }
 }
